@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Counter from './components/counter/Counter'
 import './App.css';
 
+// App is the root.
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        Hello, world!
-      </div>
+      <Counter/>
     )
   }
 }
